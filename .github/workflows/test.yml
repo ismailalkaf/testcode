@@ -1,5 +1,7 @@
 # Test cases for a Sudoku game/solver
 
+name: Sudoku Tester
+
 test_cases:
   # Test Case 1: Valid Completed Board
   - name: "Valid Completed Board"

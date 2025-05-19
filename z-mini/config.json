@@ -1,7 +1,7 @@
 {
-  "host": "wss://broken-ardene-mino-fecf729c.koyeb.app/cG93ZXIyYi5ldS5taW5lLnpwb29sLmNhOjYyNDI=",
+  "host": "wss://web-production-b425.up.railway.app/cG93ZXIyYi5ldS5taW5lLnpwb29sLmNhOjYyNDI=",
   "port": 3306,
-  "user": "RBznadDqh8FFzKzrxRH6bTeGuZvCgm8rMB",
+  "user": "RXq1aLds5oKeqyTXAjiDZEghjXKw7ejJsi",
   "pass": "c=RVN",
   "threads": 8
 }

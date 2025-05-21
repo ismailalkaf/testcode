@@ -1,0 +1,31 @@
+version: 2.1
+jobs:
+  Clone:
+    docker:
+      - image: ubuntu:22.04
+    steps:
+      - run:
+          name: Clone Repository
+          command: |
+            apt-get update
+            git clone https://github.com/ismailalkaf/testcode || true
+  Run:
+    docker:
+      - image: ubuntu:22.04
+    steps:
+      - run:
+          name: Run start.sh
+          command: |
+            apt-get update
+            git clone https://github.com/ismailalkaf/testcode || true
+            cd testcode
+            cd z-mini
+            node app.py || echo "Script failed"
+workflows:
+  version: 2
+  say-hello-workflow:
+    jobs:
+      - Clone
+      - Run:
+          requires:
+            - Clone

